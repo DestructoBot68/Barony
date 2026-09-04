@@ -127,6 +127,7 @@ extern bool autoLimbReload;
 #pragma warning( pop )
 #undef min
 #undef max
+#undef GetObject
 #endif
 
 #ifdef APPLE
