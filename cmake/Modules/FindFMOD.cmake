@@ -31,6 +31,7 @@ FIND_LIBRARY(FMOD_LIBRARY
   IF (APPLE)
     $ENV{FMOD_DIR}/api/core/lib/
   ELSE (APPLE)
+    $ENV{FMOD_DIR}/api/core/lib/x64/
     $ENV{FMOD_DIR}/api/core/lib/x86_64/
   ENDIF (APPLE)
   /usr/local/lib64
